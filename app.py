@@ -44,7 +44,7 @@ def gerar_lote_dados(tamanho=10):
         model="mixtral-8x7b-32768",
         temperature=0.7,
     )
-    
+        
     response = chat_completion.choices[0].message.content
     
     # Remove possíveis caracteres de formatação ou markdown
